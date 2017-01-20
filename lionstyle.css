@@ -1,0 +1,92 @@
+/*---------------nav-----------------------*/
+nav {
+	
+	height: 70px;
+	width: 100%;
+	background-color: black;
+}
+nav h1{
+	color: white;
+	text-align: left;
+	float: left;
+	padding-left: 15px;
+}
+nav div{
+	float: right;
+	text-align: right;
+	color: white;	
+	padding-right: 15px;
+	height: 70px;
+}
+nav div p{
+	float: left;
+	padding-left: 10px;
+}
+/*---------------------container-----------*/
+.container{
+
+width : 960px;
+margin: auto;
+padding: 10px
+}
+
+header .container {
+	background-image: url("https://www.wired.com/images_blogs/wiredscience/2012/12/owleyes.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+/*---------------header-----------------------*/
+header {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    }
+header h1{
+	font-family: Impact;
+	text-align: right;
+	display: table-cell;
+	padding: 500px 0 0 0;
+	font-size: 500%;
+	color: white;
+}
+/*----------------section------------------------*/
+#intro{
+	background-color: gray;
+	text-align: center;
+	height: 600px;
+}
+#about{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+article{
+	
+	width: 300px;
+	height: 400px;
+
+	margin: 0 auto;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 5px;
+	background-color: white;
+	font-family: Impact;
+	font-size: 35px;
+}
+article img{
+	width: 280px;
+	height: 250px;
+}
+/*--------------------------------------*/
+footer{
+	color: white;
+	background-color: black;
+	width : 100%;
+	height:80px; 
+	text-align: center;
+	padding-top: 30px;
+}
+a{
+	text-decoration: none;
+}
